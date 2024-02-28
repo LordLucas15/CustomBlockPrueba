@@ -4,6 +4,12 @@ module.exports = {
 		filename: 'main.js',
 		path: __dirname + '/dist'
 	},
+		resolve: {
+			alias: {
+			'jquery-ui': 'jquery-ui/ui/widgets',
+			'jquery-timepicker': 'jquery-timepicker',
+			},
+		},
 	module: {
 		rules: [{
 			test: /\.(jpe?g|png|gif)$/i,   //to support eg. background-image property 

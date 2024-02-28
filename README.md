@@ -39,3 +39,4 @@ npm run build; npm start
 Then go to the block tester app and enter `http://localhost:3000` in the text field and click a block. You will have to allow unsecure iframes in your bowser (top right in the url bar in Chrome) first.
 
 Once ready to deploy, commit your changes to your repo and click the deploy to heroku button on it.
+Prueba1

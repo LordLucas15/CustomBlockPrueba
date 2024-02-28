@@ -34,7 +34,10 @@ module.exports = {
 		},	
 		{
 			test: /\.css$/,
-			loaders: ["style-loader","css-loader"]
+			use: ["style-loader","css-loader"]
 		}]
+	},
+	externals:{
+		jquery: 'jquery'
 	}
 };
